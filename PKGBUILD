@@ -23,9 +23,6 @@ prepare() {
     cd clownmdemu
     git submodule update --init --recursive
     cd ..
-
-    #Patch imgui for big-endian
-    patch -Np1 -i "${srcdir}/imgui-befix.patch" -d "clownmdemu/libraries/imgui"
 }
 
 build() {
