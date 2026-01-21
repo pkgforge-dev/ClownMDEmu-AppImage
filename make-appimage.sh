@@ -14,7 +14,7 @@ export DEPLOY_OPENGL=1
 export DEPLOY_PIPEWIRE=1
 
 # Deploy dependencies
-quick-sharun /usr/bin/clownmdemu /usr/lib/libdecor/*/libdecor-cairo.so
+quick-sharun /usr/bin/clownmdemu
 
 # Additional changes can be done in between here
 
