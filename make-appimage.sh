@@ -11,7 +11,6 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/icons/hicolor/256x256/apps/clownmdemu.png
 export DESKTOP=/usr/share/applications/com.clownacy.clownmdemu.desktop
 export DEPLOY_OPENGL=1
-export DEPLOY_PIPEWIRE=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/clownmdemu
