@@ -25,9 +25,9 @@ REPO="https://github.com/Clownacy/clownmdemu-frontend"
 # Determine to build nightly or stable
 if [ "${DEVEL_RELEASE-}" = 1 ]; then
 	echo "Making nightly build of ClownMDEmu..."
-  echo "---------------------------------------------------------------"
-  VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
-  git clone --recursive --depth 1 "$REPO" ./clownmdemu
+	echo "---------------------------------------------------------------"
+	VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
+	git clone --recursive --depth 1 "$REPO" ./clownmdemu
 else 
 	echo "Making stable build of ClownMDEmu..."
 	VERSION="$(git ls-remote --tags --sort="v:refname" https://github.com/Clownacy/clownmdemu-frontend | tail -n1 | sed 's/.*\///; s/\^{}//; s/^v//')"
