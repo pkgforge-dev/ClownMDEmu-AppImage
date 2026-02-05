@@ -10,10 +10,9 @@
   <img src="https://github.com/Clownacy/clownmdemu-frontend/raw/master/assets/logo.png" width="128" />
 </p>
 
-
-| Latest Stable Release | Upstream URL |
-| :---: | :---: |
-| [Click here](https://github.com/pkgforge-dev/ClownMDEmu-AppImage/releases/latest) | [Click here](https://github.com/Clownacy/clownmdemu-frontend) |
+| Latest Stable Release | Latest Nightly Relase | Upstream URL |
+| :---: | :---: | :---: |
+| [Click here](https://github.com/pkgforge-dev/ClownMDEmu-AppImage/releases/latest) | [Click here](https://github.com/pkgforge-dev/ClownMDEmu-AppImage/releases/tag/nightly) | [Click here](https://github.com/Clownacy/clownmdemu-frontend) |
 
 </div>
 
